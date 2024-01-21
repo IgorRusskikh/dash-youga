@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.burger-line {
+  padding: 0px 20px;
+  border: 2px solid #000;
+  background-color: #000;
+}
+
+.burger-container:hover .burger-line:nth-child(1) {
+  transform: rotate(45deg) translateY(17px);
+  transition: all 0.5s ease;
+}
+
+.burger-container .burger-line:nth-child(1) {
+  transform: rotate(0deg) translateY(0px);
+  transition: all 0.5s ease;
+}
+
+.burger-container:hover .burger-line:nth-child(2) {
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.burger-container .burger-line:nth-child(2) {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.burger-container:hover .burger-line:nth-child(3) {
+  transform: rotate(-45deg) translateY(-17px);
+  transition: all 0.5s ease;
+}
+
+.burger-container .burger-line:nth-child(3) {
+  transform: rotate(0deg) translateY(0px);
+  transition: all 0.5s ease;
+}

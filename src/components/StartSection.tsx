@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const StartSection = () => {
   return (
     <div className="bg-[url('https://ss.sport-express.ru/userfiles/materials/196/1962380/full.jpg')] bg-cover bg-no-repeat bg-center h-[60rem] lg:h-[75rem] w-full">
