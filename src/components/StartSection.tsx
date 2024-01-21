@@ -23,7 +23,7 @@ const StartSection = () => {
           </div>
         </div>
         <div className="block lg:hidden mb-24">
-          <button className="py-5 px-7 bg-[#c4b9a3bb] border-2 border-[#c4b9a3] rounded-lg text-xl 2xl:mr-20">
+          <button className="py-5 px-7 bg-[#c4b9a3bb] border-2 border-[#c4b9a3] rounded-lg text-xl w-[20rem]">
             Записаться на занятие
           </button>
         </div>
