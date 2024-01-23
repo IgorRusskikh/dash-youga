@@ -6,7 +6,7 @@ const Reasons = () => {
   let isMobile = useMediaQuery({ query: "(max-width: 1024px)" }, undefined);
 
   return (
-    <div className="flex flex-wrap gap-5 xl:gap-8 justify-center w-full py-8">
+    <div className="flex flex-wrap gap-5 xl:gap-8 justify-center 2xl:w-[70rem] py-8">
       {(isMobile ? [1, 2, 3, 4] : [1, 2, 3, 4, 5, 6]).map((item, index) => (
         <div
           key={index}

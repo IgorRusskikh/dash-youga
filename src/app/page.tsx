@@ -1,6 +1,7 @@
 import StartSection from "@/components/StartSection";
 import WhyWeSection from "@/components/WhyWeSection";
 import SectionBar from "@/components/SectionBar";
+import ForWhomSection from "@/components/ForWhomSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         nemo animi mollitia ratione accusamus, architecto ab vero quas tempora?
         Rem.
       </SectionBar>
+      {/* <ForWhomSection /> */}
     </>
   );
 }

@@ -9,7 +9,7 @@ type Props = {
 const SectionBar = ({ children, color, image }: Props) => {
   return (
     <div
-      className={`py-5 sm:py-10 w-full ${color} flex justify-center flex-col align-center items-center gap-5 lg:gap-8 h-[20rem] sm:h-[23rem] max-h-[23rem]`}
+      className={`xs:py-5 sm:py-10 w-full ${color} flex justify-center flex-col align-center items-center gap-5 lg:gap-8 xs:h-[20rem] sm:h-[23rem] h-[25rem] max-h-[25rem] xs:max-h-[23rem]`}
     >
       <Image
         src={`/${image}`}
